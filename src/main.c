@@ -1,6 +1,7 @@
+#include <string.h>
 #include <stdio.h>
 #include "tipos.h"
-#include "clients.h"
+#include "clientes.h"
 #include "quarto.h"
 #include "estadia.h"
 
