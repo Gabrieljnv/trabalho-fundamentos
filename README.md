@@ -71,7 +71,6 @@ Cada opção solicita os campos necessários e grava nos arquivos binários.
 ## 🧱 Persistência de Dados
 O sistema utiliza arquivos `.dat` no diretório `data/`:
 - `clientes.dat`
-- `funcionarios.dat`
 - `quartos.dat`
 - `estadias.dat`
 
