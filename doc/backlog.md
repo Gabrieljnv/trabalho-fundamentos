@@ -1,9 +1,8 @@
 # Backlog inicial
 
 
-- Cadastro de Cliente (responsável: Aluno A)
-- Cadastro de Funcionario (responsável: Aluno B)
-- Cadastro de Quarto (responsável: Aluno C)
-- Cadastro de Estadia (responsável: Aluno A)
-- Baixa de Estadia (responsável: Aluno B)
+- Cadastro de Cliente (responsável: gabriel junio)
+- Cadastro de Quarto (responsável: gabriel junio)
+- Cadastro de Estadia (responsável: lian vasconcelos)
+- Baixa de Estadia (responsável: lian vasconcelos)
 - Testes automatizados (responsável: Todos)
