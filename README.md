@@ -32,7 +32,7 @@ Implementar um sistema em **C**, utilizando arquivos binários para persistênci
 
 ---
 ## 📂 Estrutura do Projeto
-hotel-descanso/ ├─ src/ │ ├─ cliente/ │ │ ├─ cliente.c │ │ └─ cliente.h │ ├─ funcionario/ │ ├─ quarto/ │ ├─ estadia/ │ ├─ utils/ │ ├─ tipos.h │ └─ main.c ├─ tests/ │ ├─ test_cliente.c ├─ data/ │ ├─ clientes.dat │ ├─ funcionarios.dat │ ├─ quartos.dat │ └─ estadias.dat ├─ doc/ │ ├─ backlog.md │ ├─ casos_de_teste.md │ └─ relatorio_testes.md ├─ Makefile └─ README.md
+hotel-descanso/ ├─ src/ │ ├─ cliente/ │ │ ├─ cliente.c │ │ └─ cliente.h │ ├─ quarto/ │ ├─ estadia/ │ ├─ utils/ │ ├─ tipos.h │ └─ main.c ├─ tests/ │ ├─ test_cliente.c ├─ munit │ ├─ munit.h ├─ data/ │ ├─ clientes.dat │ ├─ quartos.dat │ └─ estadias.dat ├─ doc/ │ ├─ backlog.md │ ├─ casos_de_teste.md │ └─ relatorio_testes.md ├─ Makefile └─ README.md
 
 ---
 
@@ -42,11 +42,6 @@ Certifique-se de que o **gcc** está instalado.
 
 
 No terminal (PowerShell, CMD ou Git Bash):
-
----
-
-
-## ▶️ Como Executar o Programa
 
 ---
 
@@ -71,8 +66,6 @@ Cada opção solicita os campos necessários e grava nos arquivos binários.
 ## 🧱 Persistência de Dados
 O sistema utiliza arquivos `.dat` no diretório `data/`:
 - `clientes.dat`
-- `quartos.dat`
-- `estadias.dat`
 
 
 Todos são manipulados com `fread` / `fwrite` e possuem registros fixos.
